@@ -114,7 +114,7 @@ public void onBtCancelAction(ActionEvent event) {
 	
 	@Override
 	public void initialize(URL url, ResourceBundle rb) {
-		
+		initializeNodes();
 	}
 	private void initializeNodes() {
 		Constraints.setTextFieldInteger(txtId);
